@@ -16,11 +16,17 @@ The first confusion matrix from oversampling with RandomOverSampler:
 ![nrp](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/nrp.png)
 
 Note:
+
 *Precision:
+
     *High Risk: 0.01
+    
     *Low Risk: 1.00
+    
 *Recall:
+
     *High Risk: 0.68
+    
     *Low Risk: 0.62
 
 2. **Oversampling using SMOTE**
@@ -30,11 +36,17 @@ The confusion matrix from SMOTE:
 ![smote](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/smote.png)
 
 Note:
+
 *Precision:
+
     *High Risk: 0.01
+    
     *Low Risk: 1.00
+    
 *Recall:
+
     *High Risk: 0.63
+    
     *Low Risk: 0.66
 
 3. **Undersampling using ClusterCentroids**
@@ -44,11 +56,17 @@ The confusion matrix from CusterCentroids:
 ![nrp](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/undersample.png)
 
 Note:
+
 *Precision:
+
     *High Risk: 0.01
+    
     *Low Risk: 1.00
+    
 *Recall:
+
     *High Risk: 0.60
+    
     *Low Risk: 0.43
 
 4. **Combination sampling with SMOTEENN**
@@ -58,11 +76,17 @@ The confusion matrix from SMOTEENN:
 ![smoteenn](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/SMOTEENN.png)
 
 Note:
+
 *Precision:
+
     *High Risk: 0.01
+    
     *Low Risk: 1.00
+    
 *Recall:
+
     *High Risk: 0.70
+    
     *Low Risk: 0.57
 
 5. **Ensemble classification using BalancedRandomForestClassifier**
@@ -72,11 +96,17 @@ The confusion matrix from BalancedRandomForestClassifier:
 ![balanced](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/balanced.png)
 
 Note:
+
 *Precision:
+
     *High Risk: 0.04
+    
     *Low Risk: 1.00
+    
 *Recall:
+
     *High Risk: 0.67
+    
     *Low Risk: 0.91
 
 6. **Ensemble calssification using EasyEnsembleClassifier**
@@ -86,11 +116,17 @@ The confusion matrix from EasyEnsembleClassifier:
 ![easy](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/easy.png)
 
 Note:
+
 *Precision:
+
     *High Risk: 0.07
+    
     *Low Risk: 1.00
+    
 *Recall:
+
     *High Risk: 0.91
+    
     *Low Risk: 0.94
 
 
