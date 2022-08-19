@@ -12,7 +12,9 @@ Here are the models that we employed to look at the data:
 1. **Oversampling using RandomOverSampler**
 
 The first confusion matrix from oversampling with RandomOverSampler:
-![nrp]()
+
+![nrp](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/nrp.png)
+
 Note:
 *Precision:
     *High Risk: 0.01
@@ -24,7 +26,8 @@ Note:
 2. **Oversampling using SMOTE**
 
 The confusion matrix from SMOTE:
-![smote]()
+
+![smote](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/smote.png)
 
 Note:
 *Precision:
@@ -37,7 +40,8 @@ Note:
 3. **Undersampling using ClusterCentroids**
 
 The confusion matrix from CusterCentroids:
-![nrp]()
+
+![nrp](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/undersample.png)
 
 Note:
 *Precision:
@@ -50,7 +54,8 @@ Note:
 4. **Combination sampling with SMOTEENN**
 
 The confusion matrix from SMOTEENN:
-![smoteenn]()
+
+![smoteenn](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/SMOTEENN.png)
 
 Note:
 *Precision:
@@ -61,8 +66,10 @@ Note:
     *Low Risk: 0.57
 
 5. **Ensemble classification using BalancedRandomForestClassifier**
+
 The confusion matrix from BalancedRandomForestClassifier:
-![balanced]()
+
+![balanced](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/balanced.png)
 
 Note:
 *Precision:
@@ -73,8 +80,10 @@ Note:
     *Low Risk: 0.91
 
 6. **Ensemble calssification using EasyEnsembleClassifier**
+
 The confusion matrix from EasyEnsembleClassifier:
-![easy]()
+
+![easy](https://github.com/bessobrien/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/easy.png)
 
 Note:
 *Precision:
